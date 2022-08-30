@@ -78,7 +78,7 @@ h1 {
 }
 
 .home {
-    height: 750px;
+    height: 700px;
     background-color: yellow;
     padding-top: 50px;
     background-image: url(images/interieur.jpeg);
@@ -107,7 +107,7 @@ h1 {
 }
 
 .aboutus {
-    height: 750px;
+    height: 570px;
     display: flex;
     padding-top: 50px;
     color: white;
@@ -149,7 +149,7 @@ h1 {
 .Missie:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -170,7 +170,15 @@ h1 {
     transform: scale(1.1);
 }
 
-#more {
+#more1 {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#more3 {
     display: none;
 }
 

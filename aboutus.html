@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>huizelevenslustvzw/aboutus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="mobile-container">
+
+            <div class="topnav">
+                <div class="navnav">
+                    <img src="images/levenslust logo.jpeg" alt="#">
+                    <h2>Huize Levenslust VZW</h2>
+                </div>
+                <div class="start">
+                    <div id="myLinks">
+                        <nav>
+                            <a class="homee" href="index.html">Home</a>
+                            <a class="aboutt" href="aboutus.html">About us</a>
+                            <a class="conne" href="contact.html">Contact</a>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------------------------aboutus---------------------------------->
+    <main>
+        <div id="aboutus">
+            <h1>About us</h1>
+            <div class="aboutus">
+                <div class="Visie">
+                    <h2>Visie</h2>
+
+
+
+                    <p>- Bestrijden van de negatieve effecten van verwaarlozing<br></p>
+                    <p>- Individuele affectieve aandacht<br></p>
+                    <p>- Adequate professionele competenties en persoonskenmerken: de ideale mix voor een degelijk
+                        team<br></p>
+                    <span id="dots1">...</span><span id="more1">
+                        <p>- Vraaggerichtheid en participatie, zorg op maat<br></p>
+                        <p>- Contextbegeleiding<br></p>
+                        <p>- Acceptatie<br></p>
+                        <p>- Emancipatie<br></p>
+                        <p>- Toegankelijkheid<br></p>
+                        <p>- Gezond bewustzijn van eigen competenties en beperkingen<br></p>
+                    </span></p>
+
+                    <button onclick="readmore1()" id="myBtn1">Read more</button>
+                </div>
+                <div class="Missie">
+                    <h2>Missie</h2>
+                    <p>Huize Levenslust richt zich, als residentiële voorziening binnen de Bijzondere Jeugdbijstand,
+                        naar kinderen en jongeren, die zich in een problematische opvoedingssituatie bevinden.
+                        Onze missie is de ontplooiingskansen van deze jongeren te vrijwaren en hun welzijn en gezondheid
+                        te bevorderen.
+                        <span id="dots2">...</span><span id="more2">
+                            Met onze werking willen wij een bijdrage leveren aan een zo volledig mogelijke
+                            integratie van deze specifieke groep minderjarigen in de maatschappij. Wij beogen zorg op
+                            maat
+                            aan te bieden. Binnen deze algemene doelgroep richt Levenslust zich, in het bijzonder, op
+                            kinderen en jongeren, die nauwelijks kunnen terugvallen op een familiaal netwerk.</span></p>
+
+                    <button onclick="readmore2()" id="myBtn2">Read more</button>
+                </div>
+
+                <div class="Doelstellingen">
+                    <h2>Doelstellingen</h2>
+                    <p>De doelstelling van Levenslust is in de eerste plaats het bieden van opvang aan die jongeren die
+                        (tijdelijk) niet meer thuis kunnen verblijven, en het begeleiden van hen en hun gezin. Bijna
+                        altijd ligt een problematische opvoedingssituatie aan de grondslag van de plaatsing. Wij willen
+                        een perspectief bieden binnen deze plaatsing, een mogelijkheid om veranderings-processen op gang
+                        te brengen.
+                        <span id="dots3">...</span><span id="more3">
+                            Bij de jongere zelf en in zijn gezinscontext. We
+                            stellen concrete doelstellingen op, in gezamenlijk overleg met de verschillende betrokkenen,
+                            en baseren deze op de algemene doelstellingen, ons aangereikt door de verwijzende
+                            instanties.
+                            Onze adolescenten, met weinig perspectief op een terugkeer naar huis, bereiden wij voor om
+                            op
+                            termijn zelfstandig en alleen te kunnen wonen.</span></p>
+
+                    <button onclick="readmore3()" id="myBtn3">Read more</button>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2022/ADAHCHOUR NAWFAL/Huizenlevenslust:Organisatie voor Bijzondere Jeugdzorg </p>
+    </footer>
+    <!----------------------------------------script---------------------------------->
+    <script>
+        function readmore1() {
+            var dots1 = document.getElementById("dots1");
+            var moreText1 = document.getElementById("more1");
+            var btnText1 = document.getElementById("myBtn1");
+
+            if (dots1.style.display === "none") {
+                dots1.style.display = "inline";
+                btnText1.innerHTML = "Read more";
+                moreText1.style.display = "none";
+            } else {
+                dots1.style.display = "none";
+                btnText1.innerHTML = "Read less";
+                moreText1.style.display = "inline";
+            }
+        }
+    </script>
+    <script>
+        function readmore2() {
+            var dots2 = document.getElementById("dots2");
+            var moreText2 = document.getElementById("more2");
+            var btnText2 = document.getElementById("myBtn2");
+
+            if (dots2.style.display === "none") {
+                dots2.style.display = "inline";
+                btnText2.innerHTML = "Read more";
+                moreText2.style.display = "none";
+            } else {
+                dots2.style.display = "none";
+                btnText2.innerHTML = "Read less";
+                moreText2.style.display = "inline";
+            }
+        }
+    </script>
+    <script>
+        function readmore3() {
+            var dots3 = document.getElementById("dots3");
+            var moreText3 = document.getElementById("more3");
+            var btnText3 = document.getElementById("myBtn3");
+
+            if (dots3.style.display === "none") {
+                dots3.style.display = "inline";
+                btnText3.innerHTML = "Read more";
+                moreText3.style.display = "none";
+            } else {
+                dots3.style.display = "none";
+                btnText3.innerHTML = "Read less";
+                moreText3.style.display = "inline";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
