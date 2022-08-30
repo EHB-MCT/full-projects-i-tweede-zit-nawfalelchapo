@@ -93,13 +93,19 @@ h1 {
 .text {
     padding-top: 2px;
     background-color: white;
-    height: 250px;
+    height: 140px;
     width: 60%;
     margin: 0 auto;
 }
 
 .text p {
     font-size: 18px;
+}
+
+.spatie2 img {
+    margin-top: 200px;
+    height: 100px;
+    margin-right: 300px;
 }
 
 #aboutus {
@@ -123,6 +129,7 @@ h1 {
     margin: 0 auto;
     text-align: left;
     border-radius: 20px;
+    text-align: center;
 }
 
 .Visie h2 {
@@ -181,6 +188,38 @@ h1 {
 #more3 {
     display: none;
 }
+
+.galleries {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 350px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+div.desc {
+    padding-top: 15px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+
 
 #contact {
     padding-top: 50px;
