@@ -20,6 +20,7 @@ h1 {
 
 .topnav img {
     width: 60px;
+    height: 60px;
 
 }
 
@@ -42,7 +43,7 @@ h1 {
 
 .topnav h2 {
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 
@@ -86,11 +87,72 @@ h1 {
 
 }
 
-.aboutus {
-    height: 750px;
-    background-color: teal;
+#aboutus {
     padding-top: 50px;
 }
+
+.aboutus {
+    height: 750px;
+    display: flex;
+    padding-top: 50px;
+    color: white;
+
+}
+
+.Visie {
+    padding: 50px;
+    background-color: lightblue;
+    transition: transform .2s;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.Visie:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.Missie {
+    padding: 50px;
+    background-color: red;
+    transition: transform .2s;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Missie:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+
+.Doelstellingen {
+    padding: 50px;
+    background-color: black;
+    transition: transform .2s;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.Doelstellingen:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+
+
 
 #contact {
     padding-top: 50px;
@@ -101,7 +163,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    height: 700px;
+    height: 360px;
 }
 
 .contact img {
@@ -117,6 +179,15 @@ h1 {
     display: inline-block;
     text-align: center;
     margin: 100px auto;
+}
+
+.kaart img {
+    height: 200 px;
+    width: 500px;
+    object-fit: cover;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 footer p {
