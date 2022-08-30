@@ -28,6 +28,7 @@ h1 {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 .topnav #myLinks {
@@ -62,7 +63,18 @@ h1 {
 
 .topnav a:hover {
     color: white;
-    background-color: lightblue;
+}
+
+.topnav .homee:hover {
+    background-color: lightblue
+}
+
+.topnav .aboutt:hover {
+    background-color: red;
+}
+
+.topnav .conne:hover {
+    background-color: black;
 }
 
 .home {
@@ -70,8 +82,8 @@ h1 {
     background-color: yellow;
     padding-top: 50px;
     background-image: url(images/interieur.jpeg);
-    background-size: cover;
     text-align: center;
+    background-size: cover;
 }
 
 .spatie {
