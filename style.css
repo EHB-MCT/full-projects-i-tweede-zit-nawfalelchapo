@@ -61,8 +61,8 @@ h1 {
 }
 
 .topnav a:hover {
-    background-color: red;
     color: white;
+    background-color: lightblue;
 }
 
 .home {
@@ -84,7 +84,10 @@ h1 {
     height: 250px;
     width: 60%;
     margin: 0 auto;
+}
 
+.text p {
+    font-size: 18px;
 }
 
 #aboutus {
@@ -108,6 +111,10 @@ h1 {
     margin: 0 auto;
     text-align: left;
     border-radius: 20px;
+}
+
+.Visie h2 {
+    text-align: center;
 }
 
 .Visie:hover {
@@ -141,7 +148,7 @@ h1 {
     width: 300px;
     height: 450px;
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
     border-radius: 20px;
 }
 
@@ -151,8 +158,9 @@ h1 {
     transform: scale(1.1);
 }
 
-
-
+#more {
+    display: none;
+}
 
 #contact {
     padding-top: 50px;
@@ -178,14 +186,23 @@ h1 {
 .contact div {
     display: inline-block;
     text-align: center;
-    margin: 100px auto;
+    margin-left: 45px;
+}
+
+.kaart {
+    display: flex;
+}
+
+.kaart h2 {
+    text-align: center;
+    margin: auto;
 }
 
 .kaart img {
     height: 200 px;
     width: 500px;
     object-fit: cover;
-    margin-left: 450px;
+    margin: auto;
     border-radius: 10px;
     border: 2px solid black;
 }
